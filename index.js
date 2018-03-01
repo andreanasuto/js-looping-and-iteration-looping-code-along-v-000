@@ -1,7 +1,6 @@
 // Code your solutions in this file
 function printBadges(names) {
-  console.log(names);
-  for (let i = 0; i < names.lenght; i++) {
+  for (let i = 0; i < names.length; i++) {
     console.log("Welcome ${names[i]}! You are employee #${i}");
   }
 
