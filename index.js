@@ -12,5 +12,6 @@ let i = 0
   while (Math.random() >= 0.5) {
     i++
   }
+  console.log(i);
   return "You got ${i} tails in a row!"
 }
